@@ -1,5 +1,5 @@
 /* يتيح فتح الموقع بسرعة وبدون إنترنت بعد أول زيارة. ارفع رقم الإصدار عند كل تحديث. */
-const VERSION = "alhaji-v2";
+const VERSION = "alhaji-v3";
 const SHELL = ["./", "index.html", "css/style.css", "js/menu.js", "js/app.js", "img/logo.svg", "img/icon-192.png", "manifest.webmanifest"];
 
 self.addEventListener("install", (e) => {
