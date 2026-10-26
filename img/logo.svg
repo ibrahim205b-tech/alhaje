@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFE98A"/>
+      <stop offset=".5" stop-color="#F4D35E"/>
+      <stop offset="1" stop-color="#B8912A"/>
+    </linearGradient>
+  </defs>
+  <circle cx="60" cy="60" r="57" fill="#101521"/>
+  <circle cx="60" cy="60" r="53" fill="none" stroke="url(#g)" stroke-width="3"/>
+  <circle cx="60" cy="60" r="47" fill="none" stroke="url(#g)" stroke-width="1" stroke-dasharray="2 4"/>
+  <!-- قوس تراثي -->
+  <path d="M34 88V58a26 26 0 0 1 52 0v30" fill="none" stroke="url(#g)" stroke-width="5" stroke-linecap="round"/>
+  <path d="M28 88h64" stroke="url(#g)" stroke-width="5" stroke-linecap="round"/>
+  <!-- بخار -->
+  <path d="M50 74c-5-6 5-9 0-16M60 76c-5-7 5-10 0-18M70 74c-5-6 5-9 0-16" fill="none" stroke="url(#g)" stroke-width="3.5" stroke-linecap="round"/>
+</svg>
